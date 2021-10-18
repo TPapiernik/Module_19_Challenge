@@ -60,20 +60,20 @@ Additional information about `crypto_data_symbol_added_edited.csv` is outlined b
 | `charity_data.csv`                      | Non-Quoted Comma Delimited ASCII Text File. 3.5 mb; 34,300 lines. 1 Header Line; 34,299 unique Data/Metadata Lines. 1 Line Corresponds to 1 Organization Record. 12 Fields, no leading or trailing whitespace. Added 'CRLF' at EOF for correct line-count parsing. No blank or NULL values. Shortest Line: 66 characters (including delimiters), Longest Line: 159 characters (including delimiters).
 
 **Table 2: `charity_data.csv` Fields**
-| Field Name                              | Brief Description of Contents
-|-----------------------------------------|------------------------------
-| `EIN`                                   | 34,299 unique entries. Integer Employee Identification Numbers, 8-9 digits Arabic Numerals. Min: 10520599; Max: 996086871
-| `NAME`                                  | 19,568 unique entries. Upper-Case Free ASCII Text containing Letters, Numbers, and Spaces. 1-34 characters.
-| `APPLICATION_TYPE`                      | 17 unique entries. Alphanumeric Application Type Code consisting of a Capital 'T' followed by 1-2 digits. [2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 19, 25, 29]
-| `AFFILIATION`                           | 6 unique entries. Upper- and Lower-Case ASCII Text, with one category containing a forward slash '/'. 5-16 characters.
-| `CLASSIFICATION`                        | 71 unique entries. Alphanumeric Classification Type Code consisting of a Capital 'C' followed by 1 or 4 digits. Min: 0; Min-Non-Zero: 1000; Max: 8210
-| `USE_CASE`                              | 5 unique entries. Upper- and Lower-Case ASCII Text, 5-13 characters.
-| `ORGANIZATION`                          | 4 unique entries. Upper- and Lower-Case ASCII Text, with one category containing hyphen-minus '-', 5-12 characters.
-| `STATUS`                                | 2 unique entries. Boolean Field, '1', '0'.
-| `INCOME_AMT`                            | 9 unique entries. Pseudo Numeric String Field Containing Incomes and Ranges, no thousands separator. Examples: '0', '25000-99999', '1M-5M', '50M+'
-| `SPECIAL_CONSIDERATIONS`                | 2 unique entries, 'Y', 'N'
-| `ASK_AMT`                               | 8,747 unique entries. Integer amounts with Arabic Numerals, no thousands separators, decimal points, or symbols. 4-10 digits. Min: $5,000; Max: $8,597,806,340
-| `IS_SUCCESSFUL`                         | 2 unique entries. Boolean Field, '1', '0'.
+| Field Name                              | Client Description of Contents                | Additional Description of Contents
+|-----------------------------------------|-----------------------------------------------|-----------------------------------
+| `EIN`                                   | Identification Column                         | 34,299 unique entries. Integer Employee Identification Numbers, 8-9 digits Arabic Numerals. Min: 10520599; Max: 996086871
+| `NAME`                                  | Identification Column                         | 19,568 unique entries. Upper-Case Free ASCII Text containing Letters, Numbers, and Spaces. 1-34 characters.
+| `APPLICATION_TYPE`                      | Alphabet Soup Application Type                | 17 unique entries. Alphanumeric Application Type Code consisting of a Capital 'T' followed by 1-2 digits. [2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 19, 25, 29]
+| `AFFILIATION`                           | Affiliated Sector of Industry                 | 6 unique entries. Upper- and Lower-Case ASCII Text, with one category containing a forward slash '/'. 5-16 characters.
+| `CLASSIFICATION`                        | Government Organization Classification        | 71 unique entries. Alphanumeric Classification Type Code consisting of a Capital 'C' followed by 1 or 4 digits. Min: 0; Min-Non-Zero: 1000; Max: 8210
+| `USE_CASE`                              | Use Case for Funding                          | 5 unique entries. Upper- and Lower-Case ASCII Text, 5-13 characters.
+| `ORGANIZATION`                          | Organization Type                             | 4 unique entries. Upper- and Lower-Case ASCII Text, with one category containing hyphen-minus '-', 5-12 characters.
+| `STATUS`                                | Active Status                                 | 2 unique entries. Boolean Field, '1', '0'.
+| `INCOME_AMT`                            | Income Classification                         | 9 unique entries. Pseudo Numeric String Field Containing Incomes and Ranges, no thousands separator. Examples: '0', '25000-99999', '1M-5M', '50M+'
+| `SPECIAL_CONSIDERATIONS`                | Special Consideration for Application         | 2 unique entries, 'Y', 'N'
+| `ASK_AMT`                               | Funding Amount Requested                      | 8,747 unique entries. Integer amounts with Arabic Numerals, no thousands separators, decimal points, or symbols. 4-10 digits. Min: $5,000; Max: $8,597,806,340
+| `IS_SUCCESSFUL`                         | Was the Money Used Effectively?               | 2 unique entries. Boolean Field, '1', '0'.
 
 	  
 #### Data Quality                           
