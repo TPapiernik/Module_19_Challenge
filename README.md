@@ -48,6 +48,10 @@ if funded by Alphabet Soup.
 		- User-Modified version of `AlphabetSoupCharity_starter_code.ipynb` used to complete Deliverables 1-2
 	- `AlphabetSoupCharity.h5`
 		- User-Saved Model Results HDF5 File
+	- `AlphabetSoupCharity_Optimization.ipynb`
+		- User-Modified version of `AlphabetSoupCharity.ipynb` used to optimize Neural Network to complete Deliverable 3
+	- `AlphabetSoupCharity_Optimization.h5`
+		- User-Saved Optimized Model Results HDF5 File
 
 
 Additional information about `crypto_data_symbol_added_edited.csv` is outlined below in Tables 1 & 2.
@@ -94,11 +98,12 @@ See `AlphabetSoupCharity.ipynb` and `AlphabetSoupCharity.h5`
 
 ### Deliverable 3
 
-
+See `AlphabetSoupCharity_Optimization.ipynb` and `AlphabetSoupCharity_Optimization.h5`
 
 ### Deliverable 4
 
 This 'README.md'
+
 
 ## Results
 

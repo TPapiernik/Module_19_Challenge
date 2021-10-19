@@ -37,6 +37,7 @@ config.js
 *.zip
 Backup/
 checkpoints/
+checkpoints_optimized/
 Data/
 Metadata/
 scratch/
