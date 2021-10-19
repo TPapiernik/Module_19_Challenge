@@ -31,10 +31,12 @@ if funded by Alphabet Soup.
 	- Jupyter notebook server 6.3.0, running Python 3.7.10 64-bit
 		- Dependencies:
 			- matplotlib
+			- os
 			- pandas
 			- sklearn.model_selection [train_test_split]
 			- sklearn.preprocessing [OneHotEncoder, StandardScaler]
 			- tensorflow
+			- tensorflow.keras.callbacks [ModelCheckpoint]
 
 - Data:
 	- `charity_data.csv`
@@ -86,7 +88,7 @@ See `AlphabetSoupCharity.ipynb`
 
 ### Deliverable 2
 
-See `AlphabetSoupCharity.ipynb`
+See `AlphabetSoupCharity.ipynb` and `AlphabetSoupCharity.h5`
 
 ### Deliverable 3
 

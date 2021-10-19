@@ -36,6 +36,7 @@ config.py
 config.js
 *.zip
 Backup/
+checkpoints/
 Data/
 Metadata/
 scratch/
