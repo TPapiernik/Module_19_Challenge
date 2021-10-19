@@ -138,8 +138,11 @@ This 'README.md'
 	3. Changed the activation function for Hidden Layers 2 and 3 to "sigmoid"
 	4. Reincorporated `NAME` as a feature input for the model. To reduce the number of inputs, only 'NAMES' appearing 5 or more times were considered. Names appearing less than 5 times were categorized as 'Other'.
 
+
 ## Summary
 
-Recommendation for how a different model could solve this classification problem.
+Prior to optimization, the model correctly predicted good use of funds roughly 70% of the time. Following optimization, model accuracy was boosted to nearly 80%.
+
+A different model that could be used to solve this classification problem is a Random Forest, which are good in cases of classification.
 
 -- END --
