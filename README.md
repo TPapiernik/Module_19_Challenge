@@ -46,6 +46,8 @@ if funded by Alphabet Soup.
 		- Client-Provided Starter Code Jupyter Notebook File
 		- `AlphabetSoupCharity.ipynb`
 		- User-Modified version of `AlphabetSoupCharity_starter_code.ipynb` used to complete Deliverables 1-2
+	- `AlphabetSoupCharity.h5`
+		- User-Saved Model Results HDF5 File
 
 
 Additional information about `crypto_data_symbol_added_edited.csv` is outlined below in Tables 1 & 2.
