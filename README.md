@@ -145,4 +145,5 @@ Prior to optimization, the model correctly predicted good use of funds roughly 7
 
 A different model that could be used to solve this classification problem is a Random Forest, which are good in cases of classification.
 
+
 -- END --
