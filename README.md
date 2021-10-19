@@ -17,17 +17,6 @@ that is capable of predicting whether applicants will be successful
 if funded by Alphabet Soup.
 
 
-### Tasks
-
-1. 
-2. 
-3. 
-4. 
-
-### Approach
-
-
-
 ### Deliverables
 
 1. Preprocessing Data for a Neural Network Model
@@ -41,6 +30,7 @@ if funded by Alphabet Soup.
 - Software:
 	- Jupyter notebook server 6.3.0, running Python 3.7.10 64-bit
 		- Dependencies:
+			- matplotlib
 			- pandas
 			- sklearn.model_selection [train_test_split]
 			- sklearn.preprocessing [OneHotEncoder, StandardScaler]
@@ -50,6 +40,10 @@ if funded by Alphabet Soup.
 	- `charity_data.csv`
 		- Client-Provided dataset containing more than 34,000 organizations
 		that have received funding from Alphabet Soup over the years.
+	- `AlphabetSoupCharity_starter_code.ipynb`
+		- Client-Provided Starter Code Jupyter Notebook File
+		- `AlphabetSoupCharity.ipynb`
+		- User-Modified version of `AlphabetSoupCharity_starter_code.ipynb` used to complete Deliverables 1-2
 
 
 Additional information about `crypto_data_symbol_added_edited.csv` is outlined below in Tables 1 & 2.
@@ -57,7 +51,7 @@ Additional information about `crypto_data_symbol_added_edited.csv` is outlined b
 **Table 1: Source Data Description**
 | File Name                               | Brief Description of Contents
 |-----------------------------------------|------------------------------
-| `charity_data.csv`                      | Non-Quoted Comma Delimited ASCII Text File. 3.5 mb; 34,300 lines. 1 Header Line; 34,299 unique Data/Metadata Lines. 1 Line Corresponds to 1 Organization Record. 12 Fields, no leading or trailing whitespace. Added 'CRLF' at EOF for correct line-count parsing. No blank or NULL values. Shortest Line: 66 characters (including delimiters), Longest Line: 159 characters (including delimiters).
+| `charity_data.csv`                      | Non-Quoted Comma Delimited ASCII Text File. 3.5 Mb; 34,300 lines. 1 Header Line; 34,299 unique Data/Metadata Lines. 1 Line Corresponds to 1 Organization Record. 12 Fields, no leading or trailing whitespace. Added 'CRLF' at EOF for correct line-count parsing. No blank or NULL values. Shortest Line: 66 characters (including delimiters), Longest Line: 159 characters (including delimiters).
 
 **Table 2: `charity_data.csv` Fields**
 | Field Name                              | Client Description of Contents                | Additional Description of Contents
@@ -88,11 +82,11 @@ No fields contained errant leading or trailing whitespace, and all fields contai
 
 ### Deliverable 1
 
-
+See `AlphabetSoupCharity.ipynb`
 
 ### Deliverable 2
 
-
+See `AlphabetSoupCharity.ipynb`
 
 ### Deliverable 3
 
